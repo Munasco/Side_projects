@@ -32,6 +32,9 @@ buttons.forEach((button, i) => {
     variant_computer = computer;
     document.querySelector('.status').style.display = 'flex';
     disabled = true;
+
+    document.querySelector('main').style.display = 'none';
+    document.querySelector('.game').style.display = 'flex';
   }
   else alert('Click on the Play Again Button ');
   })
@@ -105,6 +108,9 @@ result.addEventListener('click', ()=>{
   document.querySelector('.status').style.display = 'none';
 
   result.className =  result.className.replace( `${result_color_state}`  , '');
+
+  document.querySelector('main').style.display = 'flex';
+  document.querySelector('.game').style.display = 'none';
 
 
 })

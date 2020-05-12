@@ -14,10 +14,7 @@
 
   <title>Rock, Paper, Scissors</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
   <div class="container">
@@ -31,60 +28,55 @@
         <h4>Score</h4>
         <p id="score">0</p>
       </div>
-  </header>
-  <main>
-    <button class="btn btn-circle btn-paper" data-choice="Paper">
-      <span class="wrapper">
-        <img src="./images/icon-paper.svg" alt="paper-icon" />
-      </span>
-    </button>
-    <button class="btn btn-circle btn-scissors" data-choice="Scissors">
-      <span class="wrapper">
-        <img src="./images/icon-scissors.svg" alt="scissors-icon" />
-      </span>
-    </button>
-    <button class="btn btn-circle btn-rock" data-choice="Rock">
-      <span class="wrapper">
-        <img src="./images/icon-rock.svg" alt="rock-icon" />
-      </span>
-    </button>
-  </main>
-  <br />
-  <div class="game">
-    <div>
-      <h3>YOU PICKED</h3>
-      <br />
-    <button id="user" class="btn btn-circle btn-space">
-      <span class="wrapper">
-      </span>
-    </button>
-
-    </div>
-    <div class="status">
-      <h3 id="result">
-        YOU LOSE
-      </h3>
-      <button type="button" class="btn btn-status "name="button">
-        PLAY AGAIN
+    </header>
+    <main>
+      <button class="btn btn-circle btn-paper" data-choice="Paper">
+        <span class="wrapper">
+          <img src="./images/icon-paper.svg" alt="paper-icon" />
+        </span>
       </button>
-    </div>
-    <div>
-      <h3>THE HOUSE PICKED</h3>
+      <button class="btn btn-circle btn-scissors" data-choice="Scissors">
+        <span class="wrapper">
+          <img src="./images/icon-scissors.svg" alt="scissors-icon" />
+        </span>
+      </button>
+      <button class="btn btn-circle btn-rock" data-choice="Rock">
+        <span class="wrapper">
+          <img src="./images/icon-rock.svg" alt="rock-icon" />
+        </span>
+      </button>
+    </main>
+    <br />
+    <div class="game">
+      <div>
+        <h3>YOU PICKED</h3>
         <br />
-    <button id="computer" class="btn btn-circle btn-space">
-      <span class="wrapper">
-      </span>
-    </button>
-
+        <button id="user" class="btn btn-circle btn-space">
+          <span class="wrapper" />
+        </button>
+      </div>
+      <div class="status">
+        <h3 id="result">
+          YOU LOSE
+        </h3>
+        <button type="button" class="btn btn-status "name="button">
+          PLAY AGAIN
+        </button>
+      </div>
+      <div>
+        <h3>THE HOUSE PICKED</h3>
+          <br />
+      <button id="computer" class="btn btn-circle btn-space">
+        <span class="wrapper" />
+      </button>
+      </div>
+    </div>
+    <div class="space-creator"/>
+    <button class="btn btn-rules">Rules</button>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      &nbsp;Coded by <a href="#">Munachi Ernest-Eze</a>.
     </div>
   </div>
-  <div class="space-creator"/>
-  <button class="btn btn-rules">Rules</button>
-</div>
-
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Munachi Ernest-Eze</a>.
-  </div> -->
 </body>
 </html>
